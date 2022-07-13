@@ -1,26 +1,23 @@
 let day = "Saturday";
 
 switch (day) {
-    case 'Sunday':
-        console.log('6');
-        break;
     case 'Monday':
-        console.log('5');
+        console.log('Five days until Saturday');
         break;
     case 'Tuesday':
-        console.log('4');
+        console.log('Four days until Saturday');
         break;
     case 'Wednesday':
-        console.log('3');
+        console.log('Three days until Saturday');
         break;
     case 'Thursday':
-        console.log('2');
+        console.log('Two days until Saturday');
         break;
     case 'Friday':
-        console.log('1');
+        console.log('one day until Saturday');
         break;
     case 'Saturday':
-        console.log('0');
+        console.log('😀 Today is Saturday');
         break;
         default:
             console.log('Wrong input. Please try again');
