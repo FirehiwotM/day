@@ -23,7 +23,7 @@ switch (day) {
         console.log('0');
         break;
         default:
-            console.log('wrong input');
+            console.log('Wrong input. Please try again');
             break;
 
 
