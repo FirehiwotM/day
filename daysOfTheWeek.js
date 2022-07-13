@@ -1,32 +1,29 @@
 let day = "Saturday";
 
-day = day.toLocaleLowerCase();
-let dayToSat;
-
 switch (day) {
     case 'Sunday':
-        dayToSat = 6;
+        console.log('6');
         break;
     case 'Monday':
-        dayToSat = 5;
+        console.log('5');
         break;
     case 'Tuesday':
-        dayToSat = 4;
+        console.log('4');
         break;
     case 'Wednesday':
-        dayToSat = 3;
+        console.log('3');
         break;
     case 'Thursday':
-        dayToSat = 2;
+        console.log('2');
         break;
     case 'Friday':
-        dayToSat = 1;
+        console.log('1');
         break;
     case 'Saturday':
-        dayToSat = 0;
+        console.log('0');
         break;
         default:
-            dayToSat = null;
+            console.log('wrong input');
             break;
 
 

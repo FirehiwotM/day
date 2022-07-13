@@ -1,1 +1,1 @@
-# day
+# Days of the week using switch statement.
